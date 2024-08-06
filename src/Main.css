@@ -1,0 +1,6105 @@
+.card {
+    position: relative;
+}
+
+.dashboard-content {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.dashboard-title{
+    color: #fff;
+    font-size: 22px;
+}
+
+.card-chart{
+  background-color: #212529;
+}
+
+.card-revenue {
+    background-color: #212529;
+    /* max-width: 1200px;
+    margin: 0;
+    padding: 0; */
+  }
+
+  /* .card-profit{
+    height: 20px;
+  } */
+
+  @media (min-width: 980px) and (max-width:1024px) {
+    .card-revenue{
+      height: 150px;
+    }
+    .float-start .text{
+      margin-top: 19px;
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    .card-revenue {
+      max-width: 156px;
+      height: 146px;
+    }
+
+    .float-start .text{
+      margin-top: 18px;
+    }
+
+    .dashboard-content .col-md-4{
+      height: 146px;
+    }
+
+    .rating-text p{
+      font-size: 8px !important;
+     }
+
+    .card-chart{
+      max-width: 747px;
+      height: 335px;
+  }
+
+  .popular-card{
+    height: 334px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* .card-revenue {
+    max-width: 156px;
+    height: 158px;
+  } */
+   .card-revenue{
+    width: 127px;
+   }
+
+   .text-popular{
+    font-size: 11px !important;
+    margin-left: 8px !important;
+   }
+
+   .rating-text p{
+    font-size: 5px !important;
+   }
+.popular-card{
+  height: 344px !important;
+}
+
+}
+
+  @media (min-width: 1200px) and (max-width: 1500px) {
+    .card-revenue {
+      max-width: 205px;
+      height: 145px;
+    }
+
+    .float-start .text{
+      margin-top: 18px;
+    }
+
+    .dashboard-content .col-md-4{
+      height: 146px;
+    }
+
+    .card-chart{
+      max-width: 894px;
+      height: 335px;
+  }
+  .popular-card{
+    height: 334px;
+  }
+
+  .rating-text p{
+    font-size: 9px !important;
+   }
+}
+.bottom-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5 1rem; 
+}
+
+.bottom-text .float-start,
+.bottom-text .float-end {
+    display: flex;
+    align-items: baseline; 
+}
+
+.bottom-text h4,
+.bottom-text p {
+    margin: 0;
+    margin-right: 25px;
+}
+
+.float-start .text{
+ color: #fff;
+ font-size: 11px;
+ /* margin-top: 6px; */
+}
+
+.float-start .small-header{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.plus-icon {
+    position: absolute;
+    top: -17px;
+    right: 32px;
+    color: #fff;
+    width: 9px; 
+    height: 9px; 
+    background-color: #49addb;
+    border-radius: 50%;
+}
+
+.check-icon {
+    position: absolute;
+    top: -17px;
+    right: 50px;
+    color: #fff;
+    width: 9px; 
+    height: 9px; 
+    background-color: #6dda6d;
+    border-radius: 50%;
+}
+
+.cross-icon {
+    position: absolute;
+    top: -17px;
+    right: 54px;
+    color: #fff;
+    width: 9px; 
+    height: 9px; 
+    background-color: #e16363;
+    border-radius: 50%;
+}
+
+.float-end .small-text{
+    color: #5db95d;
+}
+
+.float-end .traingle-up{
+    color: #5db95d;
+}
+
+.float-end .traingle-down{
+    color: #e16363;
+}
+
+.float-end .text-icon{
+    color: #e16363;
+}
+
+.text-activity{
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.text-weekly {
+    color: #fff;
+    background-color: rgb(76, 73, 73);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 20px;
+    width: 120px;
+}
+
+
+.icon-basket {
+    font-size: 1.2rem; 
+    color: #6495ED;
+    background-color: #19365f;
+    border-radius: 8px;
+    width: 40px; 
+    height: 40px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+
+.icon-bag{
+    font-size: 1.2rem; 
+    color:#6dda6d;
+    background-color: #305d40;
+    opacity: 1;
+    border-radius: 8px;
+    width: 40px; 
+    height: 40px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.bag-icon{
+    font-size: 1.2rem; 
+    color: #e16363;
+    background-color: #5f313a;
+    border-radius: 8px;
+    width: 40px; 
+    height: 40px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.icon-dollar{
+    font-size: 1.2rem; 
+    color: #FF00FF;
+    background-color: #5c2d5c;
+    border-radius: 8px;
+    width: 40px; 
+    height: 40px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.delivered-badge{
+   background-color: #66e266;
+   color: #b1efc6;
+}
+
+
+.card-table{
+    background-color: #212529;
+}
+
+.popular-card{
+    background-color: #212529;
+}
+.popular-icons{
+    font-size: 1.2rem; 
+    color: white;
+    background-color: rgb(76, 73, 73);
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px;
+    padding: 4px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.text-popular{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.target-icon{
+    font-size: 10px; 
+    color: #FF7518;
+    background-color: #e8616180;
+    opacity: 1;
+    border-radius: 30px;
+    width: 60px; 
+    height: 62px;
+    padding: 13px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.burger-icon {
+    font-size: 1.2rem; 
+    color: #6495ED;
+    background-color: #19365f;
+    border-radius: 30px;
+    width: 60px; 
+    height: 62px;
+    padding: 13px;
+    padding: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    font-size: 1.2rem; 
+    color: #6495ED;
+    background-color: #68dd6880;
+    border-radius: 30px;
+    width: 60px; 
+    height: 62px;
+    padding: 13px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* CardComponent.css */
+.avatar-name{
+    color: #fff;
+}
+.rating-card{
+    background-color: #212529;
+}
+.star-icon {
+    color: yellow;
+    font-size: 16px;
+    margin: 1px;
+}
+
+.reg-icon{
+    color: #fff; /* Make the fill transparent */
+    font-size: 16px; /* Adjust size as needed */
+}
+
+.rating-text p{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 14px;
+    text-align: justify;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; /* Adjust this value to move the stars closer to the left */
+}
+
+.ml-2 {
+    margin-left: 0.5rem; /* Adjust this value if needed */
+}
+
+@media (max-width: 768px) {
+    .star-icon {
+        font-size: 0.8rem; /* Adjust size for smaller screens */
+    }
+}
+
+/* Card and content container styles */
+.rating-card {
+    background-color: #212529;
+    overflow: hidden;
+}
+
+/* Customize the vertical scrollbar */
+.simplebar-scrollbar::before {
+    background-color: #f4eeee !important; /* Light gray color for the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+    height: 20px; /* Make the scrollbar thumb shorter */
+}
+
+.simplebar-scrollbar:hover::before {
+    background-color: #f4eeee !important; /* Slightly darker gray when hovering over the scrollbar thumb */
+}
+
+/* Additional customization if needed */
+.simplebar-track.vertical {
+    width: 6px !important; /* Decrease the width of the scrollbar */
+}
+
+.line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color:#9b9c9e; /* Light gray color for the border */
+    margin: 8px 0; /* Adjust margin as needed */
+  }
+  
+  .delivered{
+    background-color: #305239;
+    color: #389c5b;
+  }
+
+  
+
+  .pending{
+    color: #e16363;
+    background-color: #5f313a;
+  }
+
+  .feedback h4{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 18px;
+  }
+
+  .avatar-feedback{
+    width: 30px;
+    height: 30px; 
+    margin-left: 10px;
+  }
+
+  .recent-orders h4{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+    margin-left: 35px;
+  }
+
+  .custom-table thead.custom-thead {
+    border-bottom: #9b9c9e;
+}
+
+.custom-table thead th {
+    border-bottom: 1px solid #525253 !important;
+}
+
+.netprofit-text{
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.title-profit{
+    font-size: 13px;
+}
+
+.text-net-profit{
+  color: #5db95d;;
+
+}
+
+.text-for-profit{
+  font-size: 9px;
+  color: #fff;
+  margin-top: 6px;
+}
+
+
+.progress-text {
+  color: #fff;
+  font-size: 6px;
+  text-align: center;
+  margin-top: -32px;
+  position: absolute;
+  width: 100%;
+  top: 99%;
+  transform: translateY(-50%);
+}
+
+
+.progress-container{
+  width: 90px;
+  height: 90px;
+  margin-right: 30px;
+  margin-top: -22px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:330px) {
+  .card-profit{
+    max-width: 189px;
+    /* margin: 4px; */
+    margin-top: 10px;
+  }
+
+  .card-chart{
+    max-width: 188px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 189px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 189px;
+    margin-top: 10px;
+  }
+
+  .rating-card .simple-bar{
+    height: 300px;
+  }
+
+  .rating-text p{
+    font-size: 5px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 189px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:330px) and (max-width:340px) {
+  .card-profit{
+    max-width: 203px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 207px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 207px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 207px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 5px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 207px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:340px) and (max-width:350px) {
+  .card-profit{
+    max-width: 202px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 207px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 207px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 207px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 5px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  
+  .popular-card{
+    max-width: 207px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:350px) and (max-width:360px) {
+  .card-profit{
+    max-width: 205px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 211px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 207px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 207px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 5px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 234px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:360px) and (max-width:370px) {
+  .card-profit{
+    max-width: 230px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 234px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 234px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 234px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 5px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 234px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:370px) and (max-width:380px) {
+  .card-profit{
+    max-width: 229px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 233px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 233px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 233px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 5px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+
+  .popular-card{
+    max-width: 234px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:380px) and (max-width:390px) {
+  .card-profit{
+    max-width: 230px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 234px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 234px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 234px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 5px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+
+
+  .popular-card{
+    max-width: 234px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:390px) and (max-width:400px) {
+  .card-profit{
+    max-width: 251px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 255px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 255px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 255px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 5px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 255px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:400px) and (max-width:410px) {
+  .card-profit{
+    max-width: 273px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 277px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 277px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 277px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 7px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 277px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:410px) and (max-width:420px) {
+  .card-profit{
+    max-width: 272px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 276px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 276px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 276px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 7px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 276px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:420px) and (max-width:430px) {
+  .card-profit{
+    max-width: 276px;
+    margin: 4px;
+  }
+
+  
+  .card-chart{
+    max-width: 280px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 280px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 280px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 7px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 280px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+
+
+@media screen and (min-width:430px) and (max-width:440px) {
+  .card-profit{
+    max-width: 278px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 283px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 283px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 283px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 7px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 283px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: -4px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: -12px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:440px) and (max-width:450px) {
+  .card-profit{
+    max-width: 291px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 296px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 296px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 296px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 8px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+
+  .popular-card{
+    max-width: 296px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 35px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 12px;
+    font-size: 5px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:450px) and (max-width:460px) {
+  .card-profit{
+    max-width: 292px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 297px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 297px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 297px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 8px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 297px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:460px) and (max-width:470px) {
+  .card-profit{
+    max-width: 322px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 326px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 326px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 326px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 8px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 326px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:470px) and (max-width:480px) {
+  .card-profit{
+    max-width: 321px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 326px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 326px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 326px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 8px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 326px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width:490px) {
+  .card-profit{
+    max-width: 351px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 356px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 356px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 356px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 9px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 356px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:490px) and (max-width:500px) {
+  .card-profit{
+    max-width: 352px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 357px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 357px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 357px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 9px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 357px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:500px) and (max-width:510px) {
+  .card-profit{
+    max-width: 371px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 375px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 375px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 375px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 10px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 375px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:510px) and (max-width:520px) {
+  .card-profit{
+    max-width: 372px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 376px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 376px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 376px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 10px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 376px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:520px) and (max-width:530px) {
+  .card-profit{
+    max-width: 381px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 384px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 384px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 384px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 10px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 384px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:530px) and (max-width:540px) {
+  .card-profit{
+    max-width: 381px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 385px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 385px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 385px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 10px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 385px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:540px) and (max-width:550px) {
+  .card-profit{
+    max-width: 391px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 395px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 395px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 395px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 10px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 395px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:550px) and (max-width:560px) {
+  .card-profit{
+    max-width: 391px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 395px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 395px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 395px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 10px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 10px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+
+  .popular-card{
+    max-width: 395px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:560px) and (max-width:570px) {
+  .card-profit{
+    max-width: 421px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width:424px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 424px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 424px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 424px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:570px) and (max-width:580px) {
+  .card-profit{
+    max-width: 421px;
+    margin: 4px;
+  }
+  .card-chart{
+    max-width: 425px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 425px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 425px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 425px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:580px) and (max-width:590px) {
+  .card-profit{
+    max-width: 461px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 464px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 464px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 464px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+
+  .popular-card{
+    max-width: 464px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:590px) and (max-width:600px) {
+  .card-profit{
+    max-width:461px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 465px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 465px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 465px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 465px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:610px) {
+  .card-profit{
+    max-width: 519px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 523px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 523px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 523px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  
+  .popular-card{
+    max-width: 523px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:610px) and (max-width:620px) {
+  .card-profit{
+    max-width: 519px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 519px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 519px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 519px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 519px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:620px) and (max-width:640px) {
+  .card-profit{
+    max-width: 521px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 520px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 520px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 520px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 520px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:640px) and (max-width:650px) {
+  .card-profit{
+    max-width: 521px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 524px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 524px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 524px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+
+  .popular-card{
+    max-width: 524px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:650px) and (max-width:660px) {
+  .card-profit{
+    max-width: 541px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 544px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 544px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 544px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+
+
+  .popular-card{
+    max-width: 544px;
+    margin-top: 6px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 15px;
+    height: 16px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:660px) and (max-width:670px) {
+  .card-profit{
+    max-width: 542px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 547px;
+    margin-top: -17px;
+    font-size: 13px;
+  }
+
+  .card-table{
+    max-width: 547px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 547px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 547px;
+    margin-top: 15px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 12px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:670px) and (max-width:680px) {
+  .card-profit{
+    max-width: 578px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 582px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 582px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 582px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 9px;
+  }
+
+  .popular-card{
+    max-width: 582px;
+    margin-top: 14px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 10px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:680px) and (max-width:690px) {
+  .card-profit{
+    max-width: 582px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 586px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 586px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 586px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 11px;
+  }
+
+
+  .popular-card{
+    max-width: 586px;
+    margin-top: 12px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 11px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:690px) and (max-width:700px) {
+  .card-profit{
+    max-width: 584px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 587px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 587px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 587px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 11px;
+  }
+
+
+  .popular-card{
+    max-width: 587px;
+    margin-top: 15px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 11px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:700px) and (max-width:710px) {
+  .card-profit{
+    max-width: 584px;
+    margin: 4px;
+  }
+  .card-chart{
+    max-width: 588px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 588px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 588px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 11px;
+  }
+
+  .popular-card{
+    max-width: 588px;
+    margin-top: 15px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 12px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:710px) and (max-width:720px) {
+  .card-profit{
+    max-width: 592px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 596px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 596px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 596px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 11px;
+  }
+  
+
+  .popular-card{
+    max-width: 596px;
+    margin-top: 15px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:720px) and (max-width:730px) {
+  .card-profit{
+    max-width: 591px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 594px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 594px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 594px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 11px;
+  }
+
+  .popular-card{
+    max-width: 594px;
+    margin-top: 16px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 11px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:730px) and (max-width:740px) {
+  .card-profit{
+    max-width: 592px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 597px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 597px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 597px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 11px;
+  }
+
+  .popular-card{
+    max-width: 597px;
+    margin-top: 16px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 11px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:740px) and (max-width:750px) {
+  .card-profit{
+    max-width: 617px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 621px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 621px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 621px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 11px;
+  }
+
+  .popular-card{
+    max-width: 621px;
+    margin-top: 15px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 11px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:750px) and (max-width:760px) {
+  .card-profit{
+    max-width: 619px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 623px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 623px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 623px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 11px;
+  }
+
+
+  .popular-card{
+    max-width: 623px;
+    margin-top: 15px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 11px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:760px) and (max-width:770px) {
+  .card-profit{
+    max-width: 618px;
+    margin: 4px;
+  }
+
+  .card-chart{
+    max-width: 621px;
+    margin-top: -17px;
+  }
+
+  .card-table{
+    max-width: 621px;
+    margin-top: -3px;
+  }
+
+  .recent-orders h4{
+    font-size: 11px;
+  }
+
+  .rating-card{
+    max-width: 621px;
+    margin-top: 10px;
+    height: 260px;
+  }
+
+  .rating-card .simple-bar{
+    height: 241px;
+  }
+
+  .rating-text p{
+    font-size: 11px;
+    margin-left: 40px;
+  }
+
+  .stars{
+    margin-left: 38px;
+  }
+  
+  .reg-icon{
+    font-size: 13px;
+  }
+
+  .feedback h4{
+    font-size: 12px;
+    margin-left: 41px;
+  }
+
+  .avatar-feedback{
+    margin-left: 34px;
+  }
+
+  .avatar-name{
+    font-size: 11px;
+  }
+
+  .custom-table thead.custom-thead{
+    font-size: 9px;
+  }
+
+  tbody tr{
+    font-size: 11px;
+  }
+  
+  .popular-card{
+    max-width: 621px;
+    margin-top: 15px;
+  }
+
+  .target-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .burger-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .menu-icon{
+    padding: 10px;
+    width: 38px;
+    height: 37px;
+  }
+
+  .text-popular{
+    font-size: 9px;
+  }
+
+  .popular-icons{
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .text-weekly{
+    font-size: 6px;
+    width: 49px;
+    padding: 6px;
+  }
+
+  .text-activity{
+    font-size: 14px;
+  }
+
+
+  .netprofit-text{
+    font-size: 12px;
+  }
+  .progress-container{
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+  }
+
+  .text-net-profit{
+    font-size: 10px;
+  }
+  .text-for-profit{
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 7px;
+    margin-left: 51px;
+  }
+  .title-profit{
+    font-size: 11px;
+  }
+}
+
+
+@media screen and (max-width:320px) {
+  .card-revenue{
+      max-width: 187px;
+      margin: 5px;
+  }
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:330px) {
+    .card-revenue{
+        max-width: 187px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width:330px) and (max-width:340px) {
+  .card-revenue{
+      max-width: 201px;
+      margin: 5px;
+  }
+}
+
+@media screen and (min-width:340px) and (max-width:357px) {
+  .card-revenue{
+      max-width: 201px;
+      margin: 5px;
+  }
+}
+
+@media screen and (min-width:357px) and (max-width:391px) {
+    .card-revenue {
+      max-width: 228px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:391px) and (max-width:400px) {
+    .card-revenue {
+      max-width: 250px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:400px) and (max-width:420px) {
+    .card-revenue {
+      max-width: 270px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:420px) and (max-width:440px) {
+    .card-revenue {
+      max-width: 275px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:440px) and (max-width:460px) {
+    .card-revenue {
+      max-width: 290px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:460px) and (max-width:480px) {
+    .card-revenue {
+      max-width: 320px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:480px) and (max-width:500px) {
+    .card-revenue {
+      max-width: 350px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:500px) and (max-width:520px) {
+    .card-revenue {
+      max-width: 370px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:520px) and (max-width:540px) {
+    .card-revenue {
+      max-width: 380px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:540px) and (max-width:560px) {
+    .card-revenue {
+      max-width: 390px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:560px) and (max-width:580px) {
+    .card-revenue {
+      max-width: 420px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:580px) and (max-width:600px) {
+    .card-revenue {
+      max-width: 460px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:600px) and (max-width:630px) {
+    .card-revenue {
+      max-width: 518px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:630px) and (max-width:650px) {
+    .card-revenue {
+      max-width: 520px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:650px) and (max-width:670px) {
+    .card-revenue {
+      max-width: 540px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:670px) and (max-width:690px) {
+    .card-revenue {
+      max-width: 579px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:690px) and (max-width:710px) {
+    .card-revenue {
+      max-width: 582px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:710px) and (max-width:720px) {
+    .card-revenue {
+      max-width: 590px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:720px) and (max-width:740px) {
+    .card-revenue {
+      margin: 5px;
+      max-width: 590px;
+    }
+  }
+
+  @media screen and (min-width:740px) and (max-width:760px) {
+    .card-revenue {
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width:760px) and (max-width:767px) {
+    .card-revenue {
+      margin: 5px;
+    }
+  }
