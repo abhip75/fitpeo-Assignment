@@ -20,6 +20,8 @@ margin-top: -33px;
 .dashboard-title{
     color: #fff;
     font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .card-chart{
@@ -36,6 +38,38 @@ margin-top: -33px;
   /* .card-profit{
     height: 20px;
   } */
+
+  @media(min-width:875px) and (max-width:890px){
+    .card-profit{
+      height: 106px !important;
+    }
+
+    .netprofit-text{
+      font-size: 12px !important;
+      margin-top: -34px;
+    }
+
+    .progress-container{
+      width: 53px !important;
+      margin-right: 8px !important;
+    }
+
+    .goal-completed{
+      margin-top: -24px !important;
+    }
+
+    .text-net-profit-wrapper{
+      margin-top: -30px;
+      margin-right: 24px;
+    }
+
+    .text-for-profit{
+      margin-top: -21px !important;
+    }
+
+
+    
+  }
 
   @media (min-width:890px) and (max-width:979px){
     .card-profit{
@@ -460,7 +494,7 @@ margin-top: -33px;
     background-color: #f4eeee !important; 
 }
 
-/* Additional customization if needed */
+
 .simplebar-track.vertical {
     width: 6px !important; 
 }
@@ -469,8 +503,8 @@ margin-top: -33px;
     display: block;
     width: 100%;
     height: 1px;
-    background-color:#9b9c9e; /* Light gray color for the border */
-    margin: 8px 0; /* Adjust margin as needed */
+    background-color:#9b9c9e; 
+    margin: 8px 0; 
   }
   
   .delivered{
@@ -555,6 +589,12 @@ margin-top: -33px;
 
 
 @media screen and (min-width:320px) and (max-width:330px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 189px;
     /* margin: 4px; */
@@ -610,7 +650,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 189px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -642,8 +682,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -679,9 +719,14 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:330px) and (max-width:340px) {
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 203px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -734,7 +779,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 207px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -765,8 +810,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -799,9 +844,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:340px) and (max-width:350px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 202px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -855,7 +907,7 @@ margin-top: -33px;
   
   .popular-card{
     max-width: 207px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -887,8 +939,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -921,9 +973,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:350px) and (max-width:360px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 205px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -976,7 +1035,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 234px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -1008,8 +1067,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -1041,9 +1100,14 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:360px) and (max-width:370px) {
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 230px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -1096,7 +1160,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 234px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -1127,8 +1191,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -1161,9 +1225,14 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:370px) and (max-width:380px) {
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 229px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -1217,7 +1286,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 234px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -1248,8 +1317,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -1281,9 +1350,14 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:380px) and (max-width:390px) {
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 230px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -1338,7 +1412,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 234px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -1369,8 +1443,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -1403,9 +1477,14 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:390px) and (max-width:400px) {
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 251px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -1458,7 +1537,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 255px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -1490,8 +1569,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -1524,9 +1603,14 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:400px) and (max-width:410px) {
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 273px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -1579,7 +1663,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 277px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -1610,8 +1694,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -1643,9 +1727,14 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:410px) and (max-width:420px) {
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 272px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -1698,7 +1787,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 276px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -1729,8 +1818,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -1762,9 +1851,13 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:420px) and (max-width:430px) {
+  .dashboard-title{
+    margin-left: 7px;
+  }
   .card-profit{
     max-width: 276px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   
@@ -1818,7 +1911,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 280px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -1849,8 +1942,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -1884,9 +1977,15 @@ margin-top: -33px;
 
 
 @media screen and (min-width:430px) and (max-width:440px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 278px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -1939,7 +2038,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 283px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -1970,8 +2069,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -2003,9 +2102,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:440px) and (max-width:450px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 291px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -2059,7 +2164,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 296px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -2090,8 +2195,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -2123,9 +2228,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:450px) and (max-width:460px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 292px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -2178,7 +2289,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 297px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -2210,8 +2321,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -2243,9 +2354,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:460px) and (max-width:470px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 322px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -2298,7 +2416,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 326px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -2330,8 +2448,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -2364,9 +2482,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:470px) and (max-width:480px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 321px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -2419,7 +2544,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 326px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -2450,8 +2575,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -2483,9 +2608,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:480px) and (max-width:490px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 351px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -2538,7 +2669,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 356px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -2569,8 +2700,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -2602,9 +2733,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:490px) and (max-width:500px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 352px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -2657,7 +2795,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 357px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -2689,8 +2827,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -2723,9 +2861,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:500px) and (max-width:510px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 371px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -2778,7 +2922,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 375px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -2809,8 +2953,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -2841,9 +2985,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:510px) and (max-width:520px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 372px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -2896,7 +3047,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 376px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -2927,8 +3078,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -2960,9 +3111,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:520px) and (max-width:530px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 381px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -3015,7 +3172,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 384px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -3046,8 +3203,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -3080,9 +3237,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:530px) and (max-width:540px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 381px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -3135,7 +3298,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 385px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -3166,8 +3329,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -3200,9 +3363,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:540px) and (max-width:550px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 391px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -3255,7 +3425,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 395px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -3286,8 +3456,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -3320,9 +3490,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:550px) and (max-width:560px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 391px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -3376,7 +3552,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 395px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -3407,8 +3583,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -3441,9 +3617,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:560px) and (max-width:570px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 421px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -3496,7 +3679,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 424px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -3527,8 +3710,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -3561,9 +3744,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:570px) and (max-width:580px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 421px;
     margin: 4px;
+    margin-top: 9px;
   }
   .card-chart{
     max-width: 425px;
@@ -3615,7 +3805,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 425px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -3646,8 +3836,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -3680,9 +3870,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:580px) and (max-width:590px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 461px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -3736,7 +3932,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 464px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -3767,8 +3963,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -3800,9 +3996,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:590px) and (max-width:600px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width:461px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -3855,7 +4058,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 465px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -3886,8 +4089,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -3920,9 +4123,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:600px) and (max-width:610px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 519px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -3976,7 +4185,7 @@ margin-top: -33px;
   
   .popular-card{
     max-width: 523px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -4007,8 +4216,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -4041,9 +4250,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:610px) and (max-width:620px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 519px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -4106,7 +4322,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 519px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -4137,8 +4353,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -4171,9 +4387,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:620px) and (max-width:640px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 521px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -4236,7 +4458,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 520px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -4267,8 +4489,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -4301,9 +4523,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:640px) and (max-width:650px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 521px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -4367,7 +4595,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 524px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -4399,8 +4627,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -4433,9 +4661,14 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:650px) and (max-width:660px) {
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 541px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -4500,7 +4733,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 544px;
-    margin-top: 6px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -4532,8 +4765,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -4556,7 +4789,7 @@ margin-top: -33px;
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 11px;
     margin-left: 51px;
   }
   .title-profit{
@@ -4565,9 +4798,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:660px) and (max-width:670px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 542px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -4631,7 +4870,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 547px;
-    margin-top: 15px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -4663,8 +4902,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -4688,7 +4927,7 @@ margin-top: -33px;
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 11px;
     margin-left: 51px;
   }
   .title-profit{
@@ -4697,9 +4936,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:670px) and (max-width:680px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 578px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -4762,7 +5007,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 582px;
-    margin-top: 14px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -4794,8 +5039,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -4828,9 +5073,16 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:680px) and (max-width:690px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
+
   .card-profit{
     max-width: 582px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -4894,7 +5146,7 @@ margin-top: -33px;
 
   .popular-card{
     max-width: 586px;
-    margin-top: 12px;
+    margin-top: 19px;
   }
 
   .target-icon{
@@ -4925,8 +5177,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -4950,7 +5202,7 @@ margin-top: -33px;
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 11px;
     margin-left: 51px;
   }
   .title-profit{
@@ -4959,9 +5211,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:690px) and (max-width:700px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 584px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -5057,8 +5315,8 @@ margin-top: -33px;
 
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -5082,7 +5340,7 @@ margin-top: -33px;
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 10px;
     margin-left: 51px;
   }
   .title-profit{
@@ -5091,9 +5349,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:700px) and (max-width:710px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 584px;
     margin: 4px;
+    margin-top: 9px;
   }
   .card-chart{
     max-width: 588px;
@@ -5186,8 +5450,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 59px;
     padding: 6px;
   }
 
@@ -5210,7 +5474,7 @@ margin-top: -33px;
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 10px;
     margin-left: 51px;
   }
   .title-profit{
@@ -5219,9 +5483,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:710px) and (max-width:720px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 592px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -5350,9 +5620,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:720px) and (max-width:730px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 591px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -5446,8 +5722,8 @@ margin-top: -33px;
   }
 
   .text-weekly{
-    font-size: 6px;
-    width: 49px;
+    font-size: 9px;
+    width: 58px;
     padding: 6px;
   }
 
@@ -5471,7 +5747,7 @@ margin-top: -33px;
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 12px;
     margin-left: 51px;
   }
   .title-profit{
@@ -5480,9 +5756,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:730px) and (max-width:740px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 592px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -5610,9 +5892,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:740px) and (max-width:750px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 617px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -5740,9 +6028,15 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:750px) and (max-width:760px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 619px;
     margin: 4px;
+    margin-top: 9px;
   }
 
   .card-chart{
@@ -5871,6 +6165,11 @@ margin-top: -33px;
 }
 
 @media screen and (min-width:760px) and (max-width:770px) {
+
+  .dashboard-title{
+    margin-left: 7px;
+  }
+
   .card-profit{
     max-width: 618px;
     margin: 4px;
@@ -5936,7 +6235,7 @@ margin-top: -33px;
   
   .popular-card{
     max-width: 621px;
-    margin-top: -17px;
+    margin-top: 21px;
   }
 
   .target-icon{

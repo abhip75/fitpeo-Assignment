@@ -1,5 +1,5 @@
 import React from "react";
-import { FaShoppingBasket, FaStar, FaRegStar } from "react-icons/fa";
+import { FaShoppingBasket, FaStar} from "react-icons/fa";
 import { IoBag } from "react-icons/io5";
 import { HiOutlineCurrencyDollar } from "react-icons/hi2";
 import { GoTriangleUp } from "react-icons/go";
@@ -11,7 +11,6 @@ import { BiDish } from "react-icons/bi";
 import "../Main.css";
 import ChartBar from "../components/ChartBar";
 import MyTable from "../components/MyTable"
-import { CiStar } from "react-icons/ci";
 import SimpleBar from "simplebar-react";
 import 'simplebar-react/dist/simplebar.min.css';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
