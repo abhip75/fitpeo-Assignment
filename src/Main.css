@@ -6331,9 +6331,16 @@ margin-top: -33px;
   }
 }
 
-@media screen and (min-width:357px) and (max-width:391px) {
+@media screen and (min-width:357px) and (max-width:377px) {
     .card-revenue {
-      max-width: 228px;
+      max-width: 244px;
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width: 377px) and (max-width:391px){
+    .card-revenue {
+      max-width: 227px;
       margin: 5px;
     }
   }

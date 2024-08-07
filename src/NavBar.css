@@ -88,13 +88,19 @@
     }
 
     .search-input {
-        font-size: 0.9rem; 
+        font-size: 8px;
+    }
+
+    .search-icon{
+        font-size: 14px;
     }
 }
 @media (min-width: 347px) and (max-width: 367px){
     .search-wrapper {
         max-width: 111px !important;
     }
+
+  
 }
 
 @media (min-width: 367px) and (max-width: 369px){
