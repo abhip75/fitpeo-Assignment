@@ -100,7 +100,34 @@ margin-top: -33px;
     }
   }
 
-  @media (min-width:979px) and (max-width:1024px){
+  @media (min-width:979px) and (max-width:980px){
+    .card-profit{
+      height: 150px !important;
+    }
+
+    .text-for-profit{
+      margin-top: 1px !important;
+    }
+
+    
+    .text-net-profit-wrapper{
+      margin-top: -27px;
+    }
+
+    .progress-container{
+      width: 72px !important;
+      margin-right: 9px !important;
+      margin-top: -22px !important;
+    }
+
+    .netprofit-text{
+      font-size: 14px !important;
+      margin-top: -35px;
+    }
+
+  }
+
+  @media (min-width:981px) and (max-width:1024px){
     .card-profit{
       height: 153px !important;
     }
