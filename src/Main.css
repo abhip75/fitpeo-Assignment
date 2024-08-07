@@ -10,6 +10,13 @@
   padding: 0; 
 }
 
+.goal-completed{
+color: #fff;
+font-size: 5px;
+text-align: center;
+margin-top: -33px;
+}
+
 .dashboard-title{
     color: #fff;
     font-size: 22px;
@@ -29,6 +36,68 @@
   /* .card-profit{
     height: 20px;
   } */
+
+  @media (min-width:890px) and (max-width:979px){
+    .card-profit{
+      height: 106px !important;
+    }
+
+    .text-for-profit{
+      margin-top: -13px !important;
+    }
+
+    .text-net-profit-wrapper{
+      margin-top: -30px;
+    }
+
+    .progress-container{
+      width: 57px !important;
+      margin-right: 9px;
+      margin-top: -22px;
+    }
+
+    .netprofit-text{
+      font-size: 14px !important;
+      margin-top: -30px;
+    }
+
+    .goal-completed{
+      margin-top: -25px;
+    }
+  }
+
+  @media (min-width:980px) and (max-width:1024px){
+    .card-profit{
+      height: 153px !important;
+    }
+
+    .text-for-profit{
+      margin-top: -5px !important;
+    }
+
+    
+    .text-net-profit-wrapper{
+      margin-top: -10px;
+    }
+
+    .progress-container{
+      width: 80px !important;
+      margin-right: 9px;
+      margin-top: -22px;
+    }
+
+    .netprofit-text{
+      font-size: 14px !important;
+      margin-top: -20px;
+    }
+  }
+
+  @media(min-width:1024px) and (max-width:1500px){
+    .text-for-profit{
+      margin-top: -5px !important;
+    }
+
+  }
 
   @media (min-width: 980px) and (max-width:1024px) {
     .card-revenue{
@@ -347,8 +416,8 @@
 }
 
 .reg-icon{
-    color: #fff; /* Make the fill transparent */
-    font-size: 16px; /* Adjust size as needed */
+    color: #fff; 
+    font-size: 16px; 
 }
 
 .rating-text p{
@@ -361,16 +430,16 @@
 .stars {
     display: flex;
     align-items: center;
-    margin-left: 15px; /* Adjust this value to move the stars closer to the left */
+    margin-left: 15px; 
 }
 
 .ml-2 {
-    margin-left: 0.5rem; /* Adjust this value if needed */
+    margin-left: 0.5rem; 
 }
 
 @media (max-width: 768px) {
     .star-icon {
-        font-size: 0.8rem; /* Adjust size for smaller screens */
+        font-size: 0.8rem; 
     }
 }
 
@@ -382,18 +451,18 @@
 
 /* Customize the vertical scrollbar */
 .simplebar-scrollbar::before {
-    background-color: #f4eeee !important; /* Light gray color for the scrollbar thumb */
-    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
-    height: 20px; /* Make the scrollbar thumb shorter */
+    background-color: #f4eeee !important; 
+    border-radius: 10px; 
+    height: 20px; 
 }
 
 .simplebar-scrollbar:hover::before {
-    background-color: #f4eeee !important; /* Slightly darker gray when hovering over the scrollbar thumb */
+    background-color: #f4eeee !important; 
 }
 
 /* Additional customization if needed */
 .simplebar-track.vertical {
-    width: 6px !important; /* Decrease the width of the scrollbar */
+    width: 6px !important; 
 }
 
 .line {
@@ -453,7 +522,7 @@
     font-size: 13px;
 }
 
-.text-net-profit{
+.text-net-profit-wrapper .text-net-profit{
   color: #5db95d;;
 
 }
@@ -586,9 +655,13 @@
     font-size: 12px;
   }
   .progress-container{
-    width: 83px;
+    width: 60px;
     height: 83px;
     margin-right: -4px;
+  }
+
+  .goal-completed{
+    margin-top: -26px;
   }
 
   .text-net-profit{
@@ -2041,7 +2114,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 12px;
-    font-size: 5px;
+    font-size: 8px;
     margin-left: 51px;
   }
   .title-profit{
@@ -2282,7 +2355,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 8px;
     margin-left: 51px;
   }
   .title-profit{
@@ -2401,7 +2474,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 8px;
     margin-left: 51px;
   }
   .title-profit{
@@ -2520,7 +2593,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 8px;
     margin-left: 51px;
   }
   .title-profit{
@@ -2641,7 +2714,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 8px;
     margin-left: 51px;
   }
   .title-profit{
@@ -2759,7 +2832,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 8px;
     margin-left: 51px;
   }
   .title-profit{
@@ -2878,7 +2951,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 8px;
     margin-left: 51px;
   }
   .title-profit{
@@ -3118,7 +3191,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 8px;
     margin-left: 51px;
   }
   .title-profit{
@@ -3238,7 +3311,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 9px;
     margin-left: 51px;
   }
   .title-profit{
@@ -3359,7 +3432,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 9px;
     margin-left: 51px;
   }
   .title-profit{
@@ -3479,7 +3552,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 9px;
     margin-left: 51px;
   }
   .title-profit{
@@ -3598,7 +3671,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 9px;
     margin-left: 51px;
   }
   .title-profit{
@@ -3718,7 +3791,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 9px;
     margin-left: 51px;
   }
   .title-profit{
@@ -3959,7 +4032,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 9px;
     margin-left: 51px;
   }
   .title-profit{
@@ -4219,7 +4292,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 9px;
     margin-left: 51px;
   }
   .title-profit{
@@ -5243,7 +5316,7 @@
   }
 
   .text-weekly{
-    font-size: 6px;
+    font-size: 7px;
     width: 49px;
     padding: 6px;
   }
@@ -5268,7 +5341,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 10px;
     margin-left: 51px;
   }
   .title-profit{
@@ -5528,7 +5601,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 10px;
     margin-left: 51px;
   }
   .title-profit{
@@ -5653,12 +5726,12 @@
   }
 
   .text-net-profit{
-    font-size: 10px;
+    font-size: 17px;
   }
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 15px;
     margin-left: 51px;
   }
   .title-profit{
@@ -5789,7 +5862,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 13px;
     margin-left: 51px;
   }
   .title-profit{
@@ -5863,7 +5936,7 @@
   
   .popular-card{
     max-width: 621px;
-    margin-top: 15px;
+    margin-top: -17px;
   }
 
   .target-icon{
@@ -5920,7 +5993,7 @@
   .text-for-profit{
     margin-right: 30px;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 13px;
     margin-left: 51px;
   }
   .title-profit{
@@ -6088,7 +6161,7 @@
   @media screen and (min-width:720px) and (max-width:740px) {
     .card-revenue {
       margin: 5px;
-      max-width: 590px;
+      max-width: 610px;
     }
   }
 

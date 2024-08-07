@@ -143,18 +143,19 @@ const Main = () => {
                                         strokeWidth:20,
                                     })}
                                 />
-                                <div style={{
-                                    color: '#fff',
-                                    fontSize: '5px',
-                                    textAlign: 'center',
-                                    marginTop: '-33px'
-                                }}>
+                                <div  className="goal-completed">
                                     goal completed
                                 </div>
                             </div>
                         </div>
-                        <span className="text-net-profit"><GoTriangleUp/> 3%</span>
-                        <small className="text-for-profit float-end">* The values here have been rounded off.</small>
+                        {/* <span className="text-net-profit"><GoTriangleUp/> 3%</span> */}
+                        <div className="text-net-profit-wrapper">
+                            <span className="text-net-profit"><GoTriangleUp /> 3%</span>
+                        </div>
+                        {/* <small className="text-for-profit float-end">* The values here have been rounded off.</small> */}
+                        <div className="text-for-profit float-end">
+                            <p><small>* The values here have been rounded off.</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -279,7 +280,9 @@ const Main = () => {
                     <div className="rating-text mt-2">
                     <p>
                             We enjoyed the Eggs Benedict served on homemade focaccia<br/>
-                            bread and hot coffee. Perfect service.
+                            bread and hot coffee. Coffee and bread was tasty.<br/>
+                            I tried other things also that was also good.<br/>
+                            Perfect service.
                         </p>
                     </div>
                     </SimpleBar>
